@@ -1,0 +1,22 @@
+# Cluster credentials and host-specific state - never commit
+kubeconfig
+*.kubeconfig
+known_hosts
+id_ed25519*
+*.pem
+*.key
+
+# VM artefacts
+*.vhdx
+*.vhd
+*.avhdx
+*.iso
+*.img
+_images/
+seed/
+
+# Editor / OS noise
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

@@ -1,0 +1,8 @@
+# Bash scripts run on Linux nodes: always LF, whatever core.autocrlf says
+*.sh    text eol=lf
+# PowerShell and docs: normalise, native endings on checkout
+*.ps1   text eol=crlf
+*.psm1  text eol=crlf
+*.md    text
+*.yaml  text eol=lf
+*.yml   text eol=lf
